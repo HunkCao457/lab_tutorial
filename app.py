@@ -9,6 +9,7 @@ app = Flask(__name__)
 def main_page():
 	return render_template('random.html')
 
+
 #Testing to check if it works
 @app.route('/test')
 def test():
